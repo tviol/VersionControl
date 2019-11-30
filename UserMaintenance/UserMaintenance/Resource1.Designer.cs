@@ -70,11 +70,11 @@ namespace UserMaintenance {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Fájlba írás.
+        ///   Looks up a localized string similar to Törlés.
         /// </summary>
-        internal static string button2 {
+        internal static string Delete {
             get {
-                return ResourceManager.GetString("button2", resourceCulture);
+                return ResourceManager.GetString("Delete", resourceCulture);
             }
         }
         
@@ -84,6 +84,15 @@ namespace UserMaintenance {
         internal static string FullName {
             get {
                 return ResourceManager.GetString("FullName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fájlba írás.
+        /// </summary>
+        internal static string SaveFile {
+            get {
+                return ResourceManager.GetString("SaveFile", resourceCulture);
             }
         }
     }
